@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .id-card {
+    margin: auto;
+    
+}
+
+  .id-card .card-front, .id-card .card-back {
+    padding: 20px;
+  }
+  .id-card .card-front {
+    background-color: #FFF7D8;
+    color: #333333;
+    text-align: center;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+}
+  .id-card .card-back {
+    background-color: #FFF7D8;
+    color: #333333;
+    width: 350px;
+    height: 600px;
+    font-size:15px;
+  }
+  
+  .id-card .details {
+    margin-top: 20px;
+    text-align: left;
+  }
+  .id-card .details p {
+    margin: 5px 0;
+  }
+  .id-card-fb{
+    display:flex;
+    flex-direction: row;
+  }
+  .id-logo {
+    background-image: url(./assets/iith.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    /* width: 250px; */
+    height: 70px;
+    background-position: calc(100% - 20px) 10px;
+}
+ .card-front .h2{
+    margin-top:50px;
+ }
+ .card-back .p::before{
+    content: '';
+    padding-left:20px;
+    background-image:url(./assets/full-stop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
+ .card-back p{
+    padding-left: 40px;
+ }
+ .scanner{background-image:url(./assets/qr.webp);background-repeat: no-repeat;background-size: 60px;width: 100px;/* height: 100px; */}
+ .signature{
+  background-image:url(./assets/sig.png);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  width: 100px;
+  /* height: 100px; */
+ }
+ .iith-logo{
+  background-image:url(./assets/id-l.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  width: 100px;
+  /* height: 100px; */
+ }
+ .id-images{
+  display: flex;
+  flex-direction: row;
+  /* margin: 0px 30px; */
+  gap: 50px;
+  margin-top: 0px;
+  height: 60px;
+}
+.id-card .card-front p{
+  margin:0px !important;
+  padding:0px !important;
+ 
+}
+.id-card .card-front h4{
+  margin:5px !important;
+ 
+}
+.id-card .photo img{
+  width:100px;
+  margin-bottom: 10px;
+}
+.id-card-body h2{
+  margin-top:0px;
+}
+.id-logo-align {
+  background-image: url(./assets/Mgroup.png);
+  background-position: 0px center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px;
+  margin: 0px;
+  height: 90px;
+}
+.id-images {
+  background-image: url(./assets/group.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 122px;
+}
+.card-back {
+  background-image: url(./assets/card-bg.png),url(./assets/card-bg-down.png);
+  background-position: top left,bottom right !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
